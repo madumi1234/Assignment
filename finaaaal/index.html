@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=divice-width, inital-scale=1.0">
+        <title> web develop </title>
+        <link rel=   "stylesheet" href=" index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" >
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@100;200;300;400;600;700&display=swap"
+         rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         
+    </head>
+    <body>
+    <section class=header>
+    <nav>
+        <a href="index.html"> <img class="navimg" src="https://img.icons8.com/neon/96/null/experimental-hospital-neon.png"/> </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            
+            
+             <ul>
+                <li> <a href="index.html"> HOME</a> </li>
+                <li> <a href="about.html"> ABOUT</a> </li>
+                <li> <a href="course.html"> COURSES</a> </li>
+                <li> <a href="contact.html"> CONTACT</a> </li>
+                      
+
+                
+                <a href="signup.php" class="btnr"> Register </a>
+                <a href="adminlogin.php" class="btnr"> Admin</a>
+
+            </ul>
+        </div>
+
+        <i class="fa fa-bars" onclick="showMenu()"></i> 
+
+    </nav>
+    <div class="text-box">
+        <h1>NEW INSTITUTE OF NURSING EDUCATION </h1>
+        <p>Lead the profession to shape the future of nursing and health care. <br> The NIN exists to give every nursing student the best chance of success. </p>
+        <a href="about.html"  class="hero-btn"> visit us to know more</a>
+    </div>
+</section>  
+<!----------javaScript for toggle Menu----->
+<script>
+       
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+     navLinks.style.right = "0";
+    }
+    function hideMenu(){
+     navLinks.style.right = "-200px";
+    }
+ </script>
+
+
+<!--course-->
+    <section class="Course">
+        <h1> courses we offer </h1>
+        <p>we offer you the best courses in Sri Lanka</p>
+        <div class="row">
+            <div class="Course-col">
+                <h3>NVQ CERTIFICATE COURSES</h3>
+                <p> The Level 3 NVQ Diploma in Dental Nursing apprenticeship provides you with the qualification and skills required to work within the field of a Dental Nurse. As an Apprentice, you earn while you learn, allowing you to start your career straight away.</p>
+            </div>
+            <div class="Course-col">
+                <h3>DIPLOMA COURSE</h3>
+                <p>This diploma is the essential qualification to gain registration as a nurse. ANM and GNM courses are available under diploma course. </p>
+            </div>
+            <div class="Course-col">
+                <h3>TRAINING COURSE</h3>
+                <p> 6 months of a training programe in well known hospitals including nawaloka, co-operative, apollo, sethsewana, nawinna, asiri. </p>
+            </div>
+        </div>
+    </section> 
+
+     <!--course-->
+     <section class="campus">
+    <h1> places situated </h1>
+    <p>At main cities..</p>
+    <div class="row">
+            <div class="Campus-col">
+                <img src="The_Common_Wanderer_best_things_to_do_kandy-20.jpg">
+                <div class="layer">
+                    <h3>KANDY</h3>
+                </div>
+            </div>
+            <div class="Campus-col">
+                    <img src="kurunegala-city-view.jpg">
+                    <div class="layer">
+                        <h3>KURUNEGALA</h3>
+                    </div>
+            </div>
+            <div class="Campus-col">
+                    <img src="a7.jpg">
+                    <div class="layer">
+                        <h3>COLOMBO</h3>
+                    </div>
+                    </div>
+     </div>
+     </section>
+
+     <!--facilities-->
+     <section class="facilities">
+            <h1> our facilities </h1>
+            <p>nothing but peaceful learning areas</p>
+            <div class="row" >
+                <div class="facilities-col">
+                    <img class="fimg" src="Library-shelves.jpg">
+                    <h3>LIBRARY</h3> 
+                    <p>We provid you free reading resources.Grab knowledge as much as you prefer</p>
+                </div>
+                <div  class="facilities-col">
+                    <img class="fimg" src="flex_room1-featured.jpg">
+                    <h3>PRACTICAL ROOM</h3> 
+                    <p>Theories are not only enough, you gonna need a bit of practical lessons right there and all the facilities are provided by us</p>
+                </div>
+                <div class="facilities-col">
+                    <img class="fimg" id="limg" src="images.jpg">
+                    <h3 style="padding-top :0.5rem; ">EXAMINATION HALL</h3> 
+                    <p>Air conditioned examination halls for you. </p>
+                </div>
+            </div>
+    
+     </section>
+
+      <!--testimonials-->
+     <section class="testimonials">
+            <h1> what our students say </h1>
+            <p>Hear from them</p>
+
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="b434ce5fb5c7a3ff4771a8ddc2f1e74c.jpg">
+                    <div>
+                        <p>This place feels very safe and homely. The staff are approachable and helpful.</p>
+                        <h3>Luke</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                        <img src="R (2).jfif">
+                        <div>
+                            <p>Library is a great place to concentrate and study. i spend alot of time there and love the colour cordination in the library. Really calms the mind </p>
+                            <h3>Ashton</h3>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                           
+                        </div>
+                 </div>
+            </div>
+ 
+     </section>
+     <!-------call to action------>
+     <section class="cta">
+        <h1>Enroll to our course form anywhere you</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+
+     </section>
+
+    <!-------Footer------>
+
+    <section class="footer">
+     <h4>About Us</h4>
+     <p>NEW INSTITUTE OF NURSING EDUCATION</p>
+     <div class="icons"> 
+        <i class="fa fa-facebook"></i> 
+        <i class="fa fa-twitter"></i> 
+        <i class="fa fa-instagram"></i> 
+        <i class="fa fa-linkedin"></i> 
+         
+    </div>
+    <p>Made with ❤️ by DSE 21.1 <br> Madhu,Tharu,Omesh</p>
+    
+    </section> 
+     </body>
+</html>
